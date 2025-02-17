@@ -140,6 +140,7 @@ Input the file name you want: Use single quotes when writing file name such as: 
 Data saved in/path/3wg_S.mat
 
 ```
+© 2024 Tworit Dash, TU Delft.
 
 
 
