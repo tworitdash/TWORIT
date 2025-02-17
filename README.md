@@ -1,6 +1,6 @@
-## Tworit v1.0
+## TWORIT [Theoretical solver and Waveguide Optimization for Radiating Irregular Tapered-Cones] v1.0
 
-This tool is about calculating the S parameters and Far Fields of a cascaded cylindrical waveguide structure or a conical waveguide of arbitrary cross-sections. It is based on the Mode Matching Technique. 
+This tool is about calculating the S parameters and Far Fields of a cascaded cylindrical waveguide structure or a conical waveguide of arbitrary cross-sections. It is based on the Mode Matching Technique. The tool also contains the optimization of arbitrarily profiled smooth conical horn antennas based on a desired reflection coefficient. The same code can be modified to add certain other optimization goals, such as, the cross polarization levels and antenna efficiencies. 
 
 
 For details, follow the reference [1]. 
@@ -55,7 +55,9 @@ This deliverable explicitly deals with the creation of the antenna geomerty and 
 This deliverable is a special case of deliverable 1. In this case, the geometry is given directly from a saved 
 geometry mat file. This mat file for geometry can be generated from deliverable 7.
 
+#### Deliverable 9: REF_Opt.m [Optimization of the geometry of smooth conical horn antenna with arbitrary profiles]
 
+This deliverable is an example of the conical horn optimization with arbitrary tapered profile. The goal of the optimization is to achieve a desired level of reflection coefficient. It uses the MATLAB optimization toolbox with gradient descent [Quasi-Newton] or genetic algorithm. 
 
 ### Special features:
 
@@ -138,6 +140,7 @@ Input the file name you want: Use single quotes when writing file name such as: 
 Data saved in/path/3wg_S.mat
 
 ```
+© 2024 Tworit Dash, TU Delft.
 
 
 
