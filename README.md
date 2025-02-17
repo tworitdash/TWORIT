@@ -1,6 +1,6 @@
 ## TWORIT [Theoretical solver and Waveguide Optimization for Radiating Irregular Tapered-Cones] v1.0
 
-This tool is about calculating the S parameters and Far Fields of a cascaded cylindrical waveguide structure or a conical waveguide of arbitrary cross-sections. It is based on the Mode Matching Technique. The tool also contains the optimization of arbitrarily profiled smooth conical horn antennas based on a desired reflection coefficient. The same code can be modified to add certian other optimization goals, such as, the cross polarization levels and antenna efficiencies. 
+This tool is about calculating the S parameters and Far Fields of a cascaded cylindrical waveguide structure or a conical waveguide of arbitrary cross-sections. It is based on the Mode Matching Technique. The tool also contains the optimization of arbitrarily profiled smooth conical horn antennas based on a desired reflection coefficient. The same code can be modified to add certain other optimization goals, such as, the cross polarization levels and antenna efficiencies. 
 
 
 For details, follow the reference [1]. 
